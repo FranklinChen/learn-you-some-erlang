@@ -1,0 +1,468 @@
+erlc tester.erl
+erl -noshell -s tester dir -s init stop
+hhfuns.erl:40: Warning: variable 'A' is unused
+hhfuns.erl:41: Warning: variable 'A' shadowed in 'fun'
+ops_tests.erl:12: Warning: this expression will fail with a 'badarith' exception
+ops_tests.erl:17: Warning: this expression will fail with a 'badarith' exception
+what_the_if.erl:12: Warning: no clause will ever match
+what_the_if.erl:12: Warning: the guard for this clause evaluates to 'false'
+======================== EUnit ========================
+calc_tests: all_test (module 'calc_tests')...[0.001 s] ok
+=======================================================
+  Test passed.
+======================== EUnit ========================
+module 'cases_tests'
+  cases_tests:5: insert_test_...[0.001 s] ok
+  cases_tests:6: insert_test_...ok
+  cases_tests:7: insert_test_...ok
+  cases_tests:10: beach_test_...ok
+  cases_tests:11: beach_test_...ok
+  cases_tests:12: beach_test_...ok
+  cases_tests:13: beach_test_...ok
+  cases_tests:14: beach_test_...ok
+  cases_tests:15: beach_test_...ok
+  cases_tests:16: beach_test_...ok
+  cases_tests:17: beach_test_...ok
+  cases_tests:18: beach_test_...ok
+  cases_tests:20: beach_test_...ok
+  cases_tests:22: beach_test_...ok
+  cases_tests:23: beach_test_...ok
+  cases_tests:24: beach_test_...ok
+  [done in 0.048 s]
+=======================================================
+  All 16 tests passed.
+======================== EUnit ========================
+module 'cat_fsm_tests'
+  cat_fsm_tests:14: state_test_...ok
+  cat_fsm_tests:15: state_test_...ok
+  cat_fsm_tests:16: state_test_...ok
+  [done in 0.009 s]
+=======================================================
+  All 3 tests passed.
+======================== EUnit ========================
+module 'dog_fsm_tests'
+  dog_fsm_tests:49: bark_pet_test_...ok
+  dog_fsm_tests:50: bark_pet_test_...ok
+  dog_fsm_tests:51: bark_pet_test_...ok
+  dog_fsm_tests:54: bark_other_test_...ok
+  dog_fsm_tests:55: bark_other_test_...ok
+  dog_fsm_tests:56: bark_other_test_...ok
+  dog_fsm_tests:59: wag_pet_test_...ok
+  dog_fsm_tests:60: wag_pet_test_...ok
+  dog_fsm_tests:61: wag_pet_test_...ok
+  dog_fsm_tests:64: wag_other_test_...ok
+  dog_fsm_tests:65: wag_other_test_...ok
+  dog_fsm_tests:66: wag_other_test_...ok
+  dog_fsm_tests:69: sit_squirrel_test_...ok
+  dog_fsm_tests:70: sit_squirrel_test_...ok
+  dog_fsm_tests:71: sit_squirrel_test_...ok
+  dog_fsm_tests:74: sit_other_test_...ok
+  dog_fsm_tests:75: sit_other_test_...ok
+  dog_fsm_tests:76: sit_other_test_...ok
+  dog_fsm_tests: init_test...[0.101 s] ok
+  [done in 1.371 s]
+=======================================================
+  All 19 tests passed.
+======================== EUnit ========================
+module 'dolphins_tests'
+  dolphins_tests:10: dolphin2_test_...[0.501 s] ok
+  dolphins_tests:11: dolphin2_test_...[0.501 s] ok
+  dolphins_tests:57: dolphin3_test_...[0.501 s] ok
+  [done in 1.512 s]
+=======================================================
+  All 3 tests passed.
+======================== EUnit ========================
+module 'exceptions_tests'
+  exceptions_tests:5: throws_test_...ok
+  exceptions_tests:6: throws_test_...ok
+  exceptions_tests:7: throws_test_...ok
+  exceptions_tests:11: errors_test_...ok
+  exceptions_tests:12: errors_test_...ok
+  exceptions_tests:15: errors_test_...ok
+  exceptions_tests:18: exits_test_...ok
+  exceptions_tests:19: exits_test_...ok
+  exceptions_tests:20: exits_test_...ok
+  exceptions_tests: talk_test...ok
+  exceptions_tests:27: sword_test_...ok
+  exceptions_tests:28: sword_test_...ok
+  exceptions_tests:29: sword_test_...ok
+  exceptions_tests:30: sword_test_...ok
+  exceptions_tests:31: sword_test_...ok
+  exceptions_tests:34: black_knight_test_...ok
+  exceptions_tests:36: black_knight_test_...ok
+  exceptions_tests:38: black_knight_test_...ok
+  exceptions_tests:40: black_knight_test_...ok
+  exceptions_tests:42: black_knight_test_...ok
+  exceptions_tests:44: black_knight_test_...ok
+  exceptions_tests: whoa_test...ok
+  exceptions_tests: im_impressed_test...ok
+  exceptions_tests:54: catcher_test_...ok
+  exceptions_tests:55: catcher_test_...ok
+  exceptions_tests:56: catcher_test_...ok
+  exceptions_tests:59: one_or_two_test_...ok
+  exceptions_tests:60: one_or_two_test_...ok
+  exceptions_tests:61: one_or_two_test_...ok
+  [done in 0.087 s]
+=======================================================
+  All 29 tests passed.
+======================== EUnit ========================
+module 'fifo_tests'
+  fifo_tests: new_test...ok
+  fifo_tests:7: push_test_...ok
+  fifo_tests:8: push_test_...ok
+  fifo_tests:11: pop_test_...ok
+  fifo_tests:12: pop_test_...ok
+  fifo_tests:13: pop_test_...ok
+  fifo_tests:14: pop_test_...ok
+  fifo_tests:16: pop_test_...ok
+  fifo_tests:19: empty_test_...ok
+  fifo_tests:20: empty_test_...ok
+  fifo_tests:21: empty_test_...ok
+  fifo_tests:22: empty_test_...ok
+  [done in 0.036 s]
+=======================================================
+  All 12 tests passed.
+======================== EUnit ========================
+module 'functions_tests'
+  functions_tests: head_test...[0.001 s] ok
+  functions_tests: second_test...ok
+  functions_tests:10: same_test_...ok
+  functions_tests:11: same_test_...ok
+  functions_tests:12: same_test_...ok
+  functions_tests:13: same_test_...ok
+  functions_tests:24: valid_time_test_...ok
+  functions_tests:25: valid_time_test_...ok
+  [done in 0.024 s]
+=======================================================
+  All 8 tests passed.
+======================== EUnit ========================
+module 'guards_tests'
+  guards_tests:5: old_enough_test_...[0.001 s] ok
+  guards_tests:6: old_enough_test_...ok
+  guards_tests:7: old_enough_test_...ok
+  guards_tests:10: right_age_test_...ok
+  guards_tests:11: right_age_test_...ok
+  guards_tests:12: right_age_test_...ok
+  guards_tests:13: right_age_test_...ok
+  guards_tests:14: right_age_test_...ok
+  guards_tests:17: wrong_age_test_...ok
+  guards_tests:18: wrong_age_test_...ok
+  guards_tests:19: wrong_age_test_...ok
+  guards_tests:20: wrong_age_test_...ok
+  guards_tests:21: wrong_age_test_...ok
+  [done in 0.039 s]
+=======================================================
+  All 13 tests passed.
+======================== EUnit ========================
+module 'hhfuns_tests'
+  hhfuns_tests: one_test...[0.001 s] ok
+  hhfuns_tests: two_test...ok
+  hhfuns_tests:11: add_test_...ok
+  hhfuns_tests:12: add_test_...ok
+  hhfuns_tests:13: add_test_...ok
+  hhfuns_tests: increment_test...ok
+  hhfuns_tests: decrement_test...ok
+  hhfuns_tests:22: map_test_...ok
+  hhfuns_tests:23: map_test_...ok
+  hhfuns_tests:26: bases_test_...ok
+  hhfuns_tests:27: bases_test_...ok
+  hhfuns_tests:28: bases_test_...ok
+  hhfuns_tests: closure_test...ok
+  hhfuns_tests:34: even_test_...ok
+  hhfuns_tests:35: even_test_...ok
+  hhfuns_tests:36: even_test_...ok
+  hhfuns_tests:40: old_test_...ok
+  hhfuns_tests:41: old_test_...ok
+  hhfuns_tests:42: old_test_...ok
+  hhfuns_tests:48: filter_test_...ok
+  hhfuns_tests:49: filter_test_...ok
+  hhfuns_tests:50: filter_test_...ok
+  hhfuns_tests:51: filter_test_...ok
+  hhfuns_tests:52: filter_test_...ok
+  hhfuns_tests:53: filter_test_...ok
+  hhfuns_tests:56: max_test_...ok
+  hhfuns_tests:57: max_test_...ok
+  hhfuns_tests:58: max_test_...ok
+  hhfuns_tests:61: min_test_...ok
+  hhfuns_tests:62: min_test_...ok
+  hhfuns_tests:63: min_test_...ok
+  hhfuns_tests:66: sum_test_...ok
+  hhfuns_tests:67: sum_test_...ok
+  hhfuns_tests:71: fold_test_...ok
+  hhfuns_tests:73: fold_test_...ok
+  hhfuns_tests:75: fold_test_...ok
+  hhfuns_tests:78: reverse_test_...ok
+  hhfuns_tests:79: reverse_test_...ok
+  hhfuns_tests:82: map2_test_...ok
+  hhfuns_tests:83: map2_test_...ok
+  hhfuns_tests:90: filter2_test_...ok
+  hhfuns_tests:91: filter2_test_...ok
+  hhfuns_tests:92: filter2_test_...ok
+  hhfuns_tests:93: filter2_test_...ok
+  hhfuns_tests:94: filter2_test_...ok
+  hhfuns_tests:95: filter2_test_...ok
+  [done in 0.138 s]
+=======================================================
+  All 46 tests passed.
+======================== EUnit ========================
+module 'kitchen_tests'
+  Tests fridge1 although the function is never run in the text
+    kitchen_tests:17: fridge1_store...ok
+    kitchen_tests:22: fridge1_take...ok
+    [done in 0.007 s]
+  Tests fridge2
+    kitchen_tests:41: fridge2_store...ok
+    kitchen_tests:42: fridge2_store...ok
+    kitchen_tests:47: fridge2_take_nostore...ok
+    kitchen_tests:56: fridge2_take_stored...ok
+    kitchen_tests:57: fridge2_take_stored...ok
+    [done in 0.015 s]
+  Tests the abstraction function we added to the script
+    Basic take/2 and store/2 abstractions. Can't test the hanging.
+      kitchen_tests:89: store...ok
+      kitchen_tests:95: take...ok
+      kitchen_tests:96: take...ok
+      [done in 0.009 s]
+    Start/1 abstraction tests. Reuses the take/2 and store/2 tests.
+      kitchen_tests:89: store...ok
+      kitchen_tests:95: take...ok
+      kitchen_tests:96: take...ok
+      [done in 0.009 s]
+    take2/2 and store2/2 tests.
+
+=ERROR REPORT==== 2-Jun-2013::13:36:04 ===
+Error in process <0.542.0> with exit value: {terminated,[{io,format,[<0.541.0>,"Dog says: BARK! BARK!~n",[]],[]},{dog_fsm,bark,0,[{file,"dog_fsm.erl"},{line,11}]}]}
+
+      kitchen_tests:101: store2...ok
+      kitchen_tests:102: store2...ok
+      kitchen_tests:109: take2...ok
+      kitchen_tests:110: take2...ok
+      kitchen_tests:111: take2...ok
+      [done in 6.017 s]
+    [done in 6.035 s]
+  [done in 6.057 s]
+=======================================================
+  All 18 tests passed.
+======================== EUnit ========================
+module 'kitty_gen_server_tests'
+  kitty_gen_server_tests: order_test...[0.001 s] ok
+  kitty_gen_server_tests: return_test...ok
+  [done in 0.006 s]
+=======================================================
+  All 2 tests passed.
+======================== EUnit ========================
+module 'kitty_server2_tests'
+  kitty_server2_tests: order_test...[0.001 s] ok
+  kitty_server2_tests: return_test...ok
+  kitty_server2_tests: close_noproc_test...[0.101 s] ok
+  [done in 0.111 s]
+=======================================================
+  All 3 tests passed.
+======================== EUnit ========================
+module 'kitty_server_tests'
+  kitty_server_tests: order_test...ok
+  kitty_server_tests: return_test...ok
+  kitty_server_tests: close_noproc_test...[0.100 s] ok
+  [done in 0.109 s]
+=======================================================
+  All 3 tests passed.
+======================== EUnit ========================
+module 'linkmon_tests'
+  linkmon_tests:7: myproc_test_...[5.002 s] ok
+  linkmon_tests:13: chain_test_...[2.001 s] ok
+  linkmon_tests:27: critic1_test_...ok
+  linkmon_tests:28: critic1_test_...ok
+  linkmon_tests:41: critic2_test_...ok
+  linkmon_tests:42: critic2_test_...ok
+  linkmon_tests:43: critic2_test_...ok
+  [done in 9.629 s]
+=======================================================
+  All 7 tests passed.
+======================== EUnit ========================
+module 'multiproc_tests'
+  multiproc_tests:7: sleep_test_...[0.012 s] ok
+  multiproc_tests: flush_test_...ok
+  multiproc_tests: priority_test_...ok
+  [done in 0.020 s]
+=======================================================
+  All 3 tests passed.
+======================== EUnit ========================
+
+=ERROR REPORT==== 2-Jun-2013::13:36:32 ===
+** Generic server drum terminating 
+** Last message in was timeout
+** When Server state == {state,"Janet Perlstein","drum",bad}
+** Reason for termination == 
+** bad_note
+module 'musicians_tests'
+  Make sure that random names are generated
+    musicians_tests:50: test_names...ok
+    [done in 0.002 s]
+
+=ERROR REPORT==== 2-Jun-2013::13:36:57 ===
+** Generic server drum terminating 
+** Last message in was timeout
+** When Server state == {state,"Ralphie Franklin","drum",bad}
+** Reason for termination == 
+** bad_note
+  Checks that bad musicians die at some point, whilegood ones don't
+    musicians_tests:28: crash...ok
+    musicians_tests:38: nocrash...ok
+    [done in 0.003 s]
+  [done in 24.809 s]
+=======================================================
+  All 3 tests passed.
+======================== EUnit ========================
+module 'oop_tests'
+  oop_tests:8: shell_test_...ok
+  oop_tests:9: shell_test_...ok
+  oop_tests:10: shell_test_...ok
+  oop_tests:11: shell_test_...ok
+  oop_tests:12: shell_test_...ok
+  oop_tests:13: shell_test_...ok
+  oop_tests:15: shell_test_...ok
+  [done in 0.020 s]
+=======================================================
+  All 7 tests passed.
+======================== EUnit ========================
+module 'records_tests'
+  records_tests:5: first_robot_test_...[0.001 s] ok
+  records_tests:13: car_factory_test_...ok
+  records_tests:21: repairman_test_...ok
+  records_tests:33: admin_panel_test_...ok
+  records_tests:35: admin_panel_test_...ok
+  records_tests:39: adult_section_test_...ok
+  records_tests:41: adult_section_test_...ok
+  records_tests:45: included_test_...ok
+  [done in 0.024 s]
+=======================================================
+  All 8 tests passed.
+======================== EUnit ========================
+module 'recursive_tests'
+  recursive_tests:7: fac_test_...ok
+  recursive_tests:8: fac_test_...ok
+  recursive_tests:9: fac_test_...ok
+  recursive_tests:10: fac_test_...ok
+  recursive_tests:13: tail_fac_test_...ok
+  recursive_tests:14: tail_fac_test_...ok
+  recursive_tests:15: tail_fac_test_...ok
+  recursive_tests:16: tail_fac_test_...ok
+  recursive_tests:19: len_test_...ok
+  recursive_tests:20: len_test_...ok
+  recursive_tests:21: len_test_...ok
+  recursive_tests:24: tail_len_test_...ok
+  recursive_tests:25: tail_len_test_...ok
+  recursive_tests:26: tail_len_test_...ok
+  recursive_tests:29: duplicate_test_...ok
+  recursive_tests:30: duplicate_test_...ok
+  recursive_tests:31: duplicate_test_...ok
+  recursive_tests:34: tail_duplicate_test_...ok
+  recursive_tests:35: tail_duplicate_test_...ok
+  recursive_tests:36: tail_duplicate_test_...ok
+  recursive_tests:39: reverse_test_...ok
+  recursive_tests:40: reverse_test_...ok
+  recursive_tests:41: reverse_test_...ok
+  recursive_tests:44: tail_reverse_test_...ok
+  recursive_tests:46: tail_reverse_test_...ok
+  recursive_tests:48: tail_reverse_test_...ok
+  recursive_tests:52: sublist_test_...ok
+  recursive_tests:53: sublist_test_...ok
+  recursive_tests:54: sublist_test_...ok
+  recursive_tests:57: tail_sublist_test_...ok
+  recursive_tests:59: tail_sublist_test_...ok
+  recursive_tests:61: tail_sublist_test_...ok
+  recursive_tests:65: zip_test_...ok
+  recursive_tests:66: zip_test_...ok
+  recursive_tests:67: zip_test_...ok
+  recursive_tests:70: lenient_zip_test_...ok
+  recursive_tests:72: lenient_zip_test_...ok
+  recursive_tests:73: lenient_zip_test_...ok
+  recursive_tests:77: tail_zip_test_...ok
+  recursive_tests:79: tail_zip_test_...ok
+  recursive_tests:81: tail_zip_test_...ok
+  recursive_tests:84: tail_lenient_zip_test_...ok
+  recursive_tests:86: tail_lenient_zip_test_...ok
+  recursive_tests:88: tail_lenient_zip_test_...ok
+  recursive_tests:93: quicksort_test_...ok
+  recursive_tests:94: quicksort_test_...ok
+  recursive_tests:95: quicksort_test_...ok
+  recursive_tests:96: quicksort_test_...ok
+  recursive_tests:99: lc_quicksort_test_...ok
+  recursive_tests:100: lc_quicksort_test_...ok
+  recursive_tests:101: lc_quicksort_test_...ok
+  recursive_tests:102: lc_quicksort_test_...ok
+  recursive_tests:105: bestest_qsort_test_...ok
+  recursive_tests:106: bestest_qsort_test_...ok
+  recursive_tests:107: bestest_qsort_test_...ok
+  recursive_tests:108: bestest_qsort_test_...ok
+  [done in 0.169 s]
+=======================================================
+  All 56 tests passed.
+======================== EUnit ========================
+module 'road_tests'
+  road_tests:6: group_vals_test_...[0.001 s] ok
+  road_tests:7: group_vals_test_...ok
+  road_tests:8: group_vals_test_...ok
+  road_tests:11: parse_map_test_...ok
+  road_tests:12: parse_map_test_...ok
+  road_tests:13: parse_map_test_...ok
+  road_tests:14: parse_map_test_...ok
+  road_tests:15: parse_map_test_...ok
+  road_tests:16: parse_map_test_...ok
+  road_tests:17: parse_map_test_...ok
+  road_tests:23: shortest_step_test_...ok
+  road_tests:27: optimal_path_test_...ok
+  road_tests:30: optimal_path_test_...ok
+  road_tests:32: optimal_path_test_...ok
+  [done in 0.043 s]
+=======================================================
+  All 14 tests passed.
+======================== EUnit ========================
+module 'tree_tests'
+  tree_tests: empty_test...ok
+  tree_tests:15: insert_test_...ok
+  tree_tests:16: insert_test_...ok
+  tree_tests:19: insert_test_...ok
+  tree_tests:40: lookup_test_...ok
+  tree_tests:41: lookup_test_...ok
+  tree_tests:42: lookup_test_...ok
+  tree_tests:53: update_test_...ok
+  tree_tests:54: update_test_...ok
+  tree_tests:63: has_value_test_...ok
+  tree_tests:64: has_value_test_...ok
+  [done in 0.033 s]
+=======================================================
+  All 11 tests passed.
+======================== EUnit ========================
+module 'useless_tests'
+  useless_tests:6: add_test_...[0.001 s] ok
+  useless_tests:7: add_test_...ok
+  useless_tests:8: add_test_...ok
+  useless_tests:9: add_test_...ok
+  useless_tests: hello_test...ok
+  useless_tests:15: greet_and_add_test_...ok
+  useless_tests:16: greet_and_add_test_...ok
+  useless_tests:17: greet_and_add_test_...ok
+  useless_tests:18: greet_and_add_test_...ok
+  [done in 0.027 s]
+=======================================================
+  All 9 tests passed.
+======================== EUnit ========================
+module 'what_the_if_tests'
+  what_the_if_tests: heh_fine_test...ok
+  what_the_if_tests:8: oh_god_test_...ok
+  what_the_if_tests:9: oh_god_test_...ok
+  what_the_if_tests:12: help_me_test_...ok
+  what_the_if_tests:13: help_me_test_...ok
+  what_the_if_tests:14: help_me_test_...ok
+  what_the_if_tests:15: help_me_test_...ok
+  what_the_if_tests:16: help_me_test_...ok
+  what_the_if_tests:17: help_me_test_...ok
+  [done in 0.027 s]
+=======================================================
+  All 9 tests passed.
+These need to be tested better: 
+	[{road_tests,[{main,1}]},
+         {useless_tests,[{hello_test,0}]},
+         {dolphins_tests,[{dolphin1,0}]},
+         {functions_tests,[{valid_time_test,0}]}]
