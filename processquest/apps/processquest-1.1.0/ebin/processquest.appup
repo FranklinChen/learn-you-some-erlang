@@ -1,0 +1,9 @@
+{"1.1.0",
+ [{"1.0.0", [{add_module, pq_quest},
+             {load_module, pq_enemy},
+             {load_module, pq_events},
+             {update, pq_player, {advanced, []}, [pq_quest, pq_events]}]}],
+ [{"1.0.0", [{update, pq_player, {advanced, []}},
+             {delete_module, pq_quest},
+             {load_module, pq_enemy},
+             {load_module, pq_events}]}]}.

@@ -1,0 +1,4 @@
+{"src/*", [debug_info, {i,"include/"}, {outdir, "ebin/"}]}.
+%% The TESTDIR macro assumes the file is running from the 'erlcount-1.0'
+%% directory, sitting within 'learn-you-some-erlang/'.
+{"test/*", [debug_info, {i,"include/"}, {outdir, "ebin/"}, {d, 'TESTDIR', ".."}]}.

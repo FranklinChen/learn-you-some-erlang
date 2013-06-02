@@ -1,0 +1,4 @@
+{"1.0.1",
+ [{"1.0.0", [{load_module, sockserv_serv}]}],
+ [{"1.0.0", [{load_module, sockserv_serv}]}]}.
+
